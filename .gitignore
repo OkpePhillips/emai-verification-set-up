@@ -1,1 +1,4 @@
 .env
+database.sqlite3
+database.sqlite3-wal
+database.sqlite3-shm

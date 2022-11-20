@@ -43,7 +43,7 @@ async def user_registration(user: user_pydanticIn):
 
     }
 
-@app.get('/verification', response_class=HTMLResponse)
+@app.get('/verification')
 async def email_verification(request: Request, token: str):
     user = await verify_token(token)
 
